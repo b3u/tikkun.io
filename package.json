@@ -10,7 +10,7 @@
     ]
   },
   "scripts": {
-    "start": "python -m SimpleHTTPServer",
+    "start": "python -m http.server",
     "test": "ava",
     "test:watch": "npm test -- --watch",
     "test:ui": "cypress run",
